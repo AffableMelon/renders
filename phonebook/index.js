@@ -19,6 +19,7 @@ morgan.token("body", (req, rep) => {
 
 app.use(cros());
 app.use(xps.json());
+app.use(xps.static('dist'))
 app.use(
   morgan(":method :url :status :res[content-length] - :response-time ms :body")
 );
