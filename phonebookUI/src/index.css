@@ -1,0 +1,137 @@
+
+*{
+   margin:0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   box-sizing: border-box; 
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffe6a7;
+    /* box-sizing: border-box; */
+    
+}
+
+.error {
+  color: red;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.pass{
+    color: #000000 ;
+  background: #aeffa7;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form_container button{
+    background-color: #87CEEB /*#6E8898 /* # /*#71D24B /*#656d4a  #a4ac86 */;
+    border: none;
+    /* font-weight: bold; */
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0 8px;
+    width: 90%;
+    color: #08090A;
+    transition: color 0.26s ease;
+    transition: background-color 0.26s ease;
+    /* width: 100px; */
+}
+
+.form_container button:hover{
+    background-color:  #304D6D /* #406e2e /*#414833 */;
+    color: white;
+}
+
+
+.details {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: stretch; */
+    padding: 10px;
+    background-color: #d3b483e7;
+    /* box-shadow:0 2px 2px #9f9f9f; */
+    /* flex-direction: column; */
+    border-radius: 5px;
+}
+
+.name{
+    font-weight: bold;
+    margin-right: 0 5px;
+}
+
+.person{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 0; */
+    margin: 0 10px 7px 10px;
+}
+
+.number{
+    font-weight: lighter;
+    margin: 0 5px;
+}
+.del {
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0 5px;
+    margin:0;
+    width: auto;
+    background-color: #bb413f;
+    color: #ffffff;
+}
+
+.del:hover {
+    background-color: #b71c1c;
+}
+
+.title_container{
+    text-align: center;
+}
+
+
+h1{
+
+    text-align: center;
+    color:  #432818;
+    margin-bottom: 7px;
+}
+
+.form_container{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    text-align: center;
+    margin:10px 25px 10px 10px;
+    box-sizing: border-box;
+
+}
+.contacts{
+    padding: 0;
+    margin: 10px 10px 10px 25px;
+}
+.container{
+    display: flex;
+    background-color: #c0a06ccf;
+    border-radius: 15px;
+    width: auto;
+    padding: 15px;
+    box-shadow: 5px 4px 5px #9f9f9f;
+    /* margin: 100px */
+}
